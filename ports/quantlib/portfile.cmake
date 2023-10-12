@@ -17,6 +17,7 @@ vcpkg_cmake_configure(
         -DQL_BUILD_BENCHMARK=OFF
         -DQL_BUILD_EXAMPLES=OFF
         -DQL_BUILD_TEST_SUITE=OFF
+	-QL_HIGH_RESOLUTION_DATE=ON
 )
 
 vcpkg_cmake_install()
